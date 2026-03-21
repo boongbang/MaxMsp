@@ -9,37 +9,15 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 134.0, 134.0, 650.0, 560.0 ],
+        "rect": [ 34.0, 76.0, 1213.0, 691.0 ],
         "boxes": [
-            {
-                "box": {
-                    "fontsize": 18.0,
-                    "id": "obj-title",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 15.0, 8.0, 500.0, 30.0 ],
-                    "text": "[P5-2] 조이스틱 → 음고(좌우) + 볼륨(위아래)"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-desc",
-                    "linecount": 2,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 15.0, 34.0, 600.0, 36.0 ],
-                    "text": "X축(좌우) = 음고 / Y축(위아래) = 볼륨\n1) Open Port → Start → ezdac~ 켜기 → gain~ 올리기"
-                }
-            },
             {
                 "box": {
                     "id": "obj-c1",
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 52.0, 80.0, 75.0, 20.0 ],
+                    "patching_rect": [ 58.0, 15.0, 75.0, 20.0 ],
                     "text": "Open Port"
                 }
             },
@@ -51,7 +29,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 28.0, 80.0, 22.0, 22.0 ]
+                    "patching_rect": [ 34.0, 15.0, 22.0, 22.0 ]
                 }
             },
             {
@@ -61,7 +39,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "bang", "bang", "" ],
-                    "patching_rect": [ 28.0, 106.0, 62.0, 22.0 ],
+                    "patching_rect": [ 34.0, 58.0, 62.0, 22.0 ],
                     "text": "select 0 1"
                 }
             },
@@ -72,7 +50,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 28.0, 132.0, 39.0, 22.0 ],
+                    "patching_rect": [ 34.0, 128.0, 39.0, 22.0 ],
                     "text": "close"
                 }
             },
@@ -83,7 +61,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 75.0, 132.0, 37.0, 22.0 ],
+                    "patching_rect": [ 81.0, 128.0, 37.0, 22.0 ],
                     "text": "open"
                 }
             },
@@ -94,7 +72,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "int", "" ],
-                    "patching_rect": [ 28.0, 162.0, 85.0, 22.0 ],
+                    "patching_rect": [ 34.0, 173.0, 85.0, 22.0 ],
                     "text": "serial c 9600"
                 }
             },
@@ -104,7 +82,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 118.0, 162.0, 140.0, 22.0 ],
+                    "patching_rect": [ 125.0, 173.0, 140.0, 22.0 ],
                     "text": "<-- 포트이름 변경"
                 }
             },
@@ -114,7 +92,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 152.0, 80.0, 40.0, 20.0 ],
+                    "patching_rect": [ 158.0, 15.0, 40.0, 20.0 ],
                     "text": "Start"
                 }
             },
@@ -126,7 +104,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 128.0, 80.0, 22.0, 22.0 ]
+                    "patching_rect": [ 134.0, 15.0, 22.0, 22.0 ]
                 }
             },
             {
@@ -136,7 +114,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 128.0, 106.0, 72.0, 22.0 ],
+                    "patching_rect": [ 134.0, 58.0, 72.0, 22.0 ],
                     "text": "qmetro 30"
                 }
             },
@@ -147,7 +125,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 28.0, 198.0, 75.0, 22.0 ],
+                    "patching_rect": [ 34.0, 210.0, 75.0, 22.0 ],
                     "text": "zl group 2"
                 }
             },
@@ -158,7 +136,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 28.0, 230.0, 100.0, 22.0 ],
+                    "patching_rect": [ 34.0, 242.0, 100.0, 22.0 ],
                     "text": "route 10 11"
                 }
             },
@@ -168,8 +146,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 28.0, 265.0, 200.0, 22.0 ],
-                    "text": "--- X축: 음고 (좌=낮음 우=높음) ---"
+                    "patching_rect": [ 50.0, 298.0, 129.05983036756516, 22.0 ],
+                    "text": "X축: 음고"
                 }
             },
             {
@@ -179,18 +157,19 @@
                     "numinlets": 6,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 28.0, 290.0, 145.0, 22.0 ],
+                    "patching_rect": [ 34.0, 323.0, 145.0, 22.0 ],
                     "text": "scale 0 255 220. 880."
                 }
             },
             {
                 "box": {
                     "id": "obj-csp",
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 178.0, 290.0, 200.0, 22.0 ],
-                    "text": "<-- 220Hz(라3) ~ 880Hz(라5)"
+                    "patching_rect": [ 110.0, 353.0, 88.0, 36.0 ],
+                    "text": "220Hz(라3) \n~ 880Hz(라5)"
                 }
             },
             {
@@ -202,7 +181,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 28.0, 320.0, 70.0, 22.0 ]
+                    "patching_rect": [ 34.0, 353.0, 70.0, 22.0 ]
                 }
             },
             {
@@ -212,7 +191,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 28.0, 350.0, 50.0, 22.0 ],
+                    "patching_rect": [ 34.0, 383.0, 50.0, 22.0 ],
                     "text": "$1 20"
                 }
             },
@@ -223,7 +202,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "bang" ],
-                    "patching_rect": [ 28.0, 380.0, 47.0, 22.0 ],
+                    "patching_rect": [ 34.0, 414.0, 47.0, 22.0 ],
                     "text": "line~"
                 }
             },
@@ -234,7 +213,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 28.0, 410.0, 75.0, 22.0 ],
+                    "patching_rect": [ 34.0, 444.0, 75.0, 22.0 ],
                     "text": "cycle~ 440"
                 }
             },
@@ -244,7 +223,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 108.0, 410.0, 126.0, 22.0 ],
+                    "patching_rect": [ 114.0, 444.0, 126.0, 22.0 ],
                     "text": "<-- 사인파 오실레이터"
                 }
             },
@@ -254,8 +233,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 310.0, 265.0, 200.0, 22.0 ],
-                    "text": "--- Y축: 볼륨 (위=큼 아래=작음) ---"
+                    "patching_rect": [ 213.0, 298.0, 117.17948704957962, 22.0 ],
+                    "text": "Y축: 볼륨"
                 }
             },
             {
@@ -265,18 +244,19 @@
                     "numinlets": 6,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 310.0, 290.0, 130.0, 22.0 ],
+                    "patching_rect": [ 200.0, 323.0, 130.0, 22.0 ],
                     "text": "scale 0 255 0. 1."
                 }
             },
             {
                 "box": {
                     "id": "obj-csv",
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 445.0, 290.0, 200.0, 22.0 ],
-                    "text": "<-- 위(0)=1.0 아래(255)=0.0"
+                    "patching_rect": [ 265.0, 353.0, 95.0, 36.0 ],
+                    "text": "위(0)=1.0 아래(255)=0.0"
                 }
             },
             {
@@ -288,7 +268,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 310.0, 320.0, 60.0, 22.0 ]
+                    "patching_rect": [ 200.0, 353.0, 60.0, 22.0 ]
                 }
             },
             {
@@ -298,7 +278,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 310.0, 350.0, 50.0, 22.0 ],
+                    "patching_rect": [ 200.0, 383.0, 50.0, 22.0 ],
                     "text": "$1 20"
                 }
             },
@@ -309,7 +289,7 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "bang" ],
-                    "patching_rect": [ 310.0, 380.0, 47.0, 22.0 ],
+                    "patching_rect": [ 200.0, 414.0, 47.0, 22.0 ],
                     "text": "line~"
                 }
             },
@@ -320,7 +300,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 28.0, 445.0, 300.0, 22.0 ],
+                    "patching_rect": [ 34.0, 479.0, 300.0, 22.0 ],
                     "text": "*~"
                 }
             },
@@ -330,8 +310,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 340.0, 445.0, 200.0, 22.0 ],
-                    "text": "<-- 음고 × 볼륨"
+                    "patching_rect": [ 66.0, 514.0, 98.29059928655624, 22.0 ],
+                    "text": "음고 × 볼륨"
                 }
             },
             {
@@ -343,17 +323,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "signal", "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 450.0, 380.0, 22.0, 80.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-cgain",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 478.0, 410.0, 80.0, 22.0 ],
-                    "text": "<-- 볼륨"
+                    "patching_rect": [ 34.0, 514.0, 22.0, 80.0 ]
                 }
             },
             {
@@ -363,17 +333,7 @@
                     "maxclass": "ezdac~",
                     "numinlets": 2,
                     "numoutlets": 0,
-                    "patching_rect": [ 450.0, 480.0, 44.0, 44.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-cdac",
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 500.0, 495.0, 100.0, 22.0 ],
-                    "text": "<-- 스피커 ON"
+                    "patching_rect": [ 23.0, 614.0, 44.0, 44.0 ]
                 }
             }
         ],
@@ -437,7 +397,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-ser", 0 ],
-                    "midpoints": [ 84.5, 156.0, 37.5, 156.0 ],
+                    "midpoints": [ 90.5, 163.5299096107483, 43.5, 163.5299096107483 ],
                     "source": [ "obj-opn", 0 ]
                 }
             },
@@ -450,7 +410,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-ser", 0 ],
-                    "midpoints": [ 137.5, 130.0, 37.5, 130.0 ],
+                    "midpoints": [ 143.5, 115.25640326738358, 144.07692432403564, 115.25640326738358, 144.07692432403564, 169.25640326738358, 43.5, 169.25640326738358 ],
                     "source": [ "obj-qm", 0 ]
                 }
             },
@@ -511,7 +471,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-gain", 0 ],
-                    "midpoints": [ 37.5, 470.0, 459.5, 470.0 ],
+                    "midpoints": [ 43.5, 503.17093551158905, 43.5, 503.17093551158905 ],
                     "source": [ "obj-vol", 0 ]
                 }
             },
